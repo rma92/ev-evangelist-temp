@@ -1,0 +1,24 @@
+Bahnschrift
+Shear V 18.3 degrees on Horizontal Axis.
+Ungroup E and V, then group them together as one shape.
+Shear both together, -14.7 degrees, Horizontal axis.
+Ungroup the shape.
+Select both
+Make Compound Path
+This will be the initial logo shape.
+
+Gradient: Vertical
+Top and bottom are Cyan (C=100% M,Y,K=0%), two points of that color at 34% and 66%, point at 50% (C=25% M,Y,K=0)
+
+White outline for the logo itself if needed, otherwise add Evangelist and circle the whole thing.
+
+Write EVANGELIST: T2000DOTHWYEMOD
+Create Outlines
+Text color is CMYK green.
+Place text so that top left corner of E in Evangelist as at bottom left corner of E in EV.
+Expand text (scale, maintain ratio) until EV in Evangelist are the same width as the bottom of the EV.
+
+Export
+due to this being web primarily, use SVG 1.1, no artboards, 1 decimal place.
+
+Open svg in VIM, remove "enable-background" and svg comments.
